@@ -1,0 +1,89 @@
+@media(max-width:379px){
+	
+	.navbar-nav li .nav-link{margin-left:150px;box-sizing:border-box;padding-top:20px;}
+	
+	.banner  .carousel-item .banner-img{height:300px;}
+	.banner-text{padding:30px 20px;box-sizing:border-box;}
+	.banner-text  h2{ font-size:1.5rem;}
+	.banner-text h3{font-size:2rem;}
+	.banner-text {height:590px;}
+	.carousel-btn{margin-top:18px;}
+	.carousel-indicators{bottom:-20px;}
+	.about-text{font-size:20px;padding:0px 5px;box-sizing:border-box;}
+	.post-vacation{
+		 border:1px solid  #fff;
+		 margin-left:0px;
+		 width:220px;height:180px;
+		 background:#fff;
+		 padding:0px 10px;
+		 box-sizing:border-box;
+		 align-items:center;
+	 }
+	 .cource-img{display:none;}
+	 .post-vacation-body{display:block;}
+	 
+	 .post-vacation-body  h6{margin-left:0px;font-size:22px;}
+	 .post-vacation-body p{font-size:20px;}
+	 .post-vacation-mate time{font-size:20px;}
+	 
+	 .title p{padding:0px 0px; font-size:20px;}
+	 .contaner-1{margin:auto;align-items:center;flex-wrap:wrap;display:block;}
+	 .bg-video  video{width:310px;height:auto;}
+	 .video-text{height:300px;}
+	 
+	 .video-text h3{font-size:25px;
+		font-weight:800;}
+		 .video-text p{font-size:20px;}
+		 .feedback-text .name{margin-left:0px;}
+		 
+}
+
+@media screen and (min-width:400px)and (max-width:768px){
+	.navbar-nav li .nav-link{margin-left:240px;box-sizing:border-box;padding-top:20px;}
+	
+	.banner  .carousel-item .banner-img{height:300px;}
+	.banner-text{padding:30px 20px;box-sizing:border-box;}
+	.banner-text  h2{ font-size:1.5rem;}
+	.banner-text h3{font-size:2rem;}
+	.banner-text {height:590px;}
+	.carousel-btn{margin-top:18px;}
+	.carousel-indicators{margin-bottom:20px;}
+	.about-text{font-size:20px;padding:0px 5px;box-sizing:border-box;}
+	.post-vacation{
+		 border:1px solid  #fff;
+		 margin-left:0px;
+		 width:220px;height:180px;
+		 background:#fff;
+		 padding:0px 10px;
+		 box-sizing:border-box;
+		 align-items:center;
+	 }
+	 .cource-img{display:none;}
+	 .post-vacation-body{display:block;}
+	 
+	 
+	.bg-video  video{width:450px;height:auto;}
+	 .video-text{height:450px;}
+	 
+	 .video-text h3{font-size:25px;
+		font-weight:800;}
+		 .video-text p{font-size:20px;}
+		 .post-event{margin-top:40px;}
+		 .title p{padding:0px 0px; font-size:22px;}
+		 .feedback-text .name{margin-left:0px;}
+}
+
+@media screen and (min-width:769px)and (max-width:900px){
+	.navbar-nav li .nav-link{margin-left:285px;padding-top:30px;font-size:20px; box-sizing:border-box;}
+	
+	.bg-video  video{width:450px;height:auto;}
+	 .video-text{height:450px;}
+	 
+	 .video-text h3{font-size:25px;
+		font-weight:800;}
+		 .video-text p{font-size:20px;}
+		 .post-event{margin-top:40px;}
+		 .title p{padding:0px 0px; font-size:22px;}
+		 .feedback-text .name{margin-left:0px;}
+	
+}

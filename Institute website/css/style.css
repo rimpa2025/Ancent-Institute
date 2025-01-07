@@ -1,0 +1,453 @@
+
+*{margin:0;
+padding:0;}
+html{scroll-behavior:smooth;}
+
+.hr-style{width: 50px;
+    height: 3px;background: #0d2d62;
+  }
+a{text-decoration:none;}
+
+
+.top-header{
+	background-color:#2d3e50;color:#fff;
+}
+.top-header:before{
+	content: "";
+    height: 48px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+	background-color:#86bc42;
+}
+.header-top-right .content{
+	float:left;
+	padding:10px;
+	font-size:16px;
+	}
+	
+.header-top-right .content a{
+	color:#fff;
+	text-transform:uppercase;align-items:center;font-size:16px;}
+.header-top-right .content span{
+	color:#fff;
+	padding:0px 15px;
+	font-size:20px;
+}	
+
+.navbar-brand img{width:100px;height:auto;}
+
+.nav-link{
+	color:#000;
+	font-weight:500;
+	text-transform:uppercase;
+	font-size:16px;
+	margin-left:15px;
+	font-weight:bold;
+	border-bottom:2px solid transparent;
+	transition: all 0.3s ease;}
+.nav-link:hover{
+	color:#b80924;
+	border-color:#b80924;
+}
+.navigation .navbar-toggler{outline:none;
+border:none;padding-right:20px;}
+
+.navbar-icon{
+	color:#b80924;
+	font-size:26px;}
+.banner-text {
+	width:100%;
+	height:800px;
+	position:absolute;
+	top:50%;
+	left:6%;
+	transform:translatey(-50%);
+	color:#fff;
+	}
+	.banner  .carousel-item img{
+		
+	}
+	.banner  .carousel-item .banner-img{
+		background:liner-gradient(312deg, rgba(0,0,0,0.8)50%,transparent 50%);
+		width:100%;
+		height:550px;
+		}
+	.banner-text h2{
+		color:#fff;
+		font-size:;
+		margin-top:20px;
+		font-family:"Changa One", cursive;
+		font-weight:bold;
+	}
+	.banner-text h3{
+		color:#fff;
+		font-size:3rem;
+		
+		font-family:"Changa One", cursive;
+		font-weight:900;
+	}
+	.carousel-btn{
+		outline:none;
+		border:none;
+		background-color:#b80924;
+		color:#fff;
+		border-radius:10px;
+		padding:10px 20px;
+		font-size:20px;
+	}
+	
+.btn{outline:none;
+		border:none;
+		background-color:#b80924;
+		color:#fff;
+		border-radius:10px;
+		padding:15px 28px;
+		font-size:19px;
+		margin-top:20px;
+	}
+	.about-text h3 span{
+		color: #0d2d62;
+		font-weight: 700 !important;
+		font-family: "Merriweather", "Times New Roman", Times, serif;
+	}
+	.about-text h3{
+		color:#b80924;
+		font-weight: 700 !important;
+		font-family: "Merriweather", "Times New Roman", Times, serif;
+		font-size:2.5rem;
+	}
+	 .Featured-img{background-image:url("https://livedemo00.template-help.com/wt_59029_v3/images/home-01-846x1002.jpg")}
+	 .Featured-text{
+		 background-color:#0d2d62;
+		 padding:45px 30px;
+		 color:#fff;
+		 align-items:center;}
+		
+	 .cource-img{float:left;align-items:center}
+	 .post-vacation{
+		 border:1px solid  #fff;
+		 margin-left:30px;
+		 width:430px;height:120px;
+	 }
+	 .cource-start{padding;30px, 0px}
+	 .post-vacation-body {
+		 height:120px;
+		background-color:#fff;
+		color:#000;
+		padding:0px 10px;
+		align-items:center;
+		
+	 }
+	 .post-vacation-body  h6{
+			font-family: "Merriweather", "Times New Roman", Times, serif;
+			font-size:700;
+			color:#b80924;
+			margin-left:20px;
+			padding-top:10px ;
+			font-size:20px;
+		}
+		.post-vacation-body  p{
+			color:#000;
+			font-size:17px;
+			font-family: "Merriweather", "Times New Roman", Times, serif;
+			
+		}
+		.post-vacation-title{
+			margin-left:20px;
+			padding:0px 10px;}
+			
+			.post-vacation-mate time{
+				font-size:17px;
+				font-family: "Merriweather", "Times New Roman", Times, serif;
+				color:#888888 !important;
+			}
+			
+			
+	.title p{
+		padding:0px 150px;
+	}
+
+		.contaner-1{
+			margin-top:35px;
+			align-items:center;
+		}
+		
+		.contaner-1 i{
+			font-size:70px;
+			color:#0d2d62;
+			padding:35px;
+			border:1px solid #e5e5e5 ;
+			border-radius:100px;
+		}
+		.contaner-1 h3{
+			color:#b80924;
+			font-size:32px;
+			font-weight:bold;
+			margin-left:40px;
+			margin-top:20px;
+		}
+		.hr{
+			width:50px;
+			color:#e5e5e5;
+			height:8px;
+			margin-left:35px;
+		}
+		.contaner-1 p{
+			color:#000;
+			font-weight:bold;
+			font-size:20px;
+			font-family: "Merriweather", "Times New Roman", Times, serif;
+			
+		}
+		
+		.bg-video video{
+			background-position:absolute;
+			background-repeat:no-repeat;
+			background-attachment:fixed;
+			background-size:cover;
+			margin:auto;
+			z-index:-1;
+			transform:translatey(-50%, -50%);
+			visibility:visible;
+			opacity:1;
+			width:1334px;height:auto;
+			
+			}
+			.video .container{position:relative}
+			.video-text{
+			width:100%;
+			height:930px;
+			position:absolute;
+			align-items:center;
+			text-align:center;
+			top:50%;
+			left:6%;
+			transform:translatey(-50%);
+			color:#fff;}
+			
+	.video-text h3{
+		color:#fff;
+		font-family: "Merriweather", "Times New Roman", Times, serif;
+			
+		font-size:58px;
+		font-weight:900;
+	}
+
+.events .post-event-meta{
+	float:left;
+	background: #0d2d62;
+    padding: 5px 9px;
+    min-width: 90px;
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+    color: #f6f7f8;
+}
+.events .post-event-body {
+	background-color:#F5F7FA;
+	border:9px solid #F5F7FA;
+	height:100px;
+}
+
+.events .post-event-body h6{
+	color:#b80924;
+
+text-align:center;
+padding-top:20px!important;
+padding-left:10px!important;}	
+
+.events .post-event-body a span i{
+	color:#b80924;
+}
+
+.events {
+	background-color:#F5F7FA;
+}
+
+.events .post-event-overly{
+		width:100%;
+		height:100%;
+		position:absolute;
+		top:50%;
+		left:50%;
+		transform:translate(-50%,-50%);
+		background-color:rgba(92,95,236,0.6);
+		display:flex;
+		justify-content:space-between;
+		align-items:center
+	}
+.events	.post-event-overly{
+		visibility:hidden;
+	}
+	.events.post-event-img-overly img:hover .overlay{
+		visibility:visible;
+		animation:fade 0.5s;
+	}
+	
+	
+	.feedback{
+		background-color:#0d2d62;
+		color:#fff;
+		padding:40px 0px;
+	}
+	
+	.quote-icon{
+		color:rgba(255, 255, 255, 0.2);
+		font-size:47px;
+	}
+	.feedback-text h3{
+		font-family:"Merriweather", "Times New Roman", Times, serif;
+		margin-top:20px;
+		margin-left:30px;
+	}
+	.feedback-text .name{margin-left:100px;}
+	.feedback .carousel-indicators{
+			bottom:-50px;
+		}
+	.feedback .carousel-item{
+		padding:0% 0%;
+		
+		font-style:italic;
+	}
+	.feedback .name{
+		margin-left:550px;
+		margin-top:60px;
+	}
+	 .feedback .name p{
+		 color:#888888 !important;
+	 }
+	/*==========News section ================*/
+	.news{
+		background-color:#F5F7FA;
+		padding:40px 0px;
+	}
+	.news-wraper{background-color:#fff;}
+	.news .news-wraper-body{
+		height:auto;
+		text-align:center;
+		padding:20px 20px;
+		background-color:#fff;
+	}
+	
+.news	.news-wraper-body h5{
+		color:#b80924;
+		margin-top:10px;
+		text-align:center;
+		font-family:"Merriweather", "Times New Roman", Times, serif;
+		font-size:20px;
+		font-weight:bold;
+		line-height: 1.22222;
+	
+	}
+	.post-news-meta{background-color:#fff;display:bolck}
+	.news .news-wraper-body h6{
+		font-family:"Merriweather", "Times New Roman", Times, serif;
+		font-size:18px;
+		margin-top:20px;
+		font-weight: 400;
+		color: #888888;
+	}
+	.news .post-news-meta-1{float:left;}
+	
+	.news .post-news-meta {
+		
+		margin-left:10px;
+		
+	}
+	.news .post-news-meta{
+		color: #888888;
+	}
+	
+	.box{
+	width:280px;
+	text-align:center;
+	box-shadow:20px 20px 30px rgba(0,0,0,0.2);
+	border-radius:20px;
+	overflow:hidden;
+	margin:15px;
+	
+	}
+	.slide-img{height:240px; position:relative;}
+	.slide-img img{
+		width:100%;
+		height:100%;
+		box-sizing:border-box;
+	}
+	
+	
+/*========map wrap location start==================*/
+.location {padding-left: 10px;}
+.map-location{background-color:#333333;}
+.location h3{
+	margin-top:80px;
+	
+    font-family: "Oswald", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.location p{font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.55556;
+    color:#dadada;
+text-align: left;}
+
+.location i{color:#e79702;
+padding:10px;
+font-size:20px;}
+
+/*========map wrap location end==================*/
+
+
+.contact{
+	background-image:url("https://www.foodsafetymantra.com/wp-content/uploads/2019/10/Directions-of-FSSAI-Registration-Who-Doesn%E2%80%99t-Require-It.jpg");
+	background-repeat:no-repeat;
+	background-position:relative;
+	background-size:cover;
+	background-attachment:fixed;
+	width:100%;
+	height:auto;
+}
+
+.make-responsive{
+	width:100%;
+	background:rgba(231,115,2,0.5);
+}
+.make-responsive label{
+	font-weight:bold;
+	color:#000;
+}
+.Reservation-btn{
+	border:none;
+	padding:12px;
+	border-radius:10px;
+	border:none;
+	background:#000;
+	color:white;
+}
+/*========contacet section start==================*/
+
+
+/*=================*/
+
+/*========footer section start==================*/
+.footer{
+	width:100%;
+	
+	margin-top:50px;
+}
+.last-footer {background-color:#101010;
+color:#fff;}
+
+
+.footer-singal .input-group {
+    position: relative;
+   
+    display: flex;
+    
+    flex-wrap: wrap;
+    
+    align-items: stretch;
+   
+}
